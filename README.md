@@ -189,13 +189,19 @@ mysql> select * from t_user;
 
 # 手写 Hibernate 系列
 
-[手写 Hibernate ORM 框架-01-注解定义、常量定义](https://blog.csdn.net/ryo1060732496/article/details/80172494)
+[手写 Hibernate ORM 框架 00-hibernate 简介](https://houbb.github.io/2020/06/21/hand-write-hibernate-00-intro)
 
-[手写 Hibernate ORM 框架-02-实体 Bean 定义，建表语句自动生成](https://blog.csdn.net/ryo1060732496/article/details/80173002)
+[手写 Hibernate ORM 框架 00-环境准备](https://houbb.github.io/2020/06/21/hand-write-hibernate-00-overview)
 
-[手写 Hibernate ORM 框架-03-Hibernate 配置文件读取, 数据库连接构建](https://blog.csdn.net/ryo1060732496/article/details/80173101)
+[手写 Hibernate ORM 框架 01-注解常量定义](https://houbb.github.io/2020/06/21/hand-write-hibernate-01-annotation)
 
-[手写 Hibernate ORM 框架-04-数据库交互，数据持久化](https://blog.csdn.net/ryo1060732496/article/details/80173244)
+[手写 Hibernate ORM 框架 02-实体 Bean 定义，建表语句自动生成](https://houbb.github.io/2020/06/21/hand-write-hibernate-02-bean)
+
+[手写 Hibernate ORM 框架 03-配置文件读取, 数据库连接构建](https://houbb.github.io/2020/06/21/hand-write-hibernate-03-config)
+
+[手写 Hibernate ORM 框架 04-持久化实现](https://houbb.github.io/2020/06/21/hand-write-hibernate-04-persist)
+
+[手写 Hibernate ORM 框架 05-整体效果测试验证](https://houbb.github.io/2020/06/21/hand-write-hibernate-05-test)
 
 ## 从零手写组件系列
 
