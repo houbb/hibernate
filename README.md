@@ -185,6 +185,8 @@ mysql> select * from t_user;
 
 - [ ] list 等常见查询
 
+- [ ] jdbc-pool 整合
+
 # 手写 Hibernate 系列
 
 [手写 Hibernate ORM 框架-01-注解定义、常量定义](https://blog.csdn.net/ryo1060732496/article/details/80172494)
