@@ -14,22 +14,9 @@ import com.mysql.jdbc.PreparedStatement;
 import java.sql.Connection;
 import java.sql.SQLException;
 
-/**
- * Session 实现
- * @author houbinbin
- * @date 16/6/5
- */
 public class Session {
-    /**
-     * 插入模板
-     */
     private static final String INSERT_FORMAT = "INSERT INTO %s ( %s ) VALUES ( %s ) ;";
 
-    /**
-     * 保存用户信息
-     * @param user
-     * @throws SQLException
-     */
     public void save(User user) throws SQLException {
         String sql = buildInsertSQL(user);
 
@@ -39,11 +26,6 @@ public class Session {
         con.close();
     }
 
-    /**
-     * 构建插入语句
-     * @param user
-     * @return
-     */
     public String buildInsertSQL(User user) {
         String tableName = TableUtil.getTableName(user);
         String fieldString = FieldUtil.getFieldNameString(user);
@@ -52,10 +34,6 @@ public class Session {
         return String.format(INSERT_FORMAT, tableName, fieldString, valueString);
     }
 
-    /**
-     * 获取数据库链接信息
-     * @return
-     */
     public Connection createConnection() {
         return ConnectionUtil.getConnection();
     }

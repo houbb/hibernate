@@ -17,22 +17,11 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 
-/**
- * 数据库链接信息
- *
- * @author houbinbin
- * @date 16/6/5
- */
 public class ConnectionUtil {
 
     private ConnectionUtil() {
     }
 
-    /**
-     * 根据配置信息 获取数据库链接
-     *
-     * @return Connection
-     */
     public static Connection getConnection() {
         Connection connection = null;
 
@@ -49,11 +38,6 @@ public class ConnectionUtil {
     }
 
 
-    /**
-     * 获取 JDBC 配置信息
-     *
-     * @return map
-     */
     private static Map<String, String> getJDBCConfig() {
         Map<String, String> config = new HashMap<>();
 

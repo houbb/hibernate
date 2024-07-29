@@ -5,12 +5,6 @@
 
 package com.github.houbb.hibernate.constants;
 
-/**
- *
- * hibernate 常量
- * @author houbinbin
- * @date 16/6/5
- */
 public class HibernateConstant {
 
     /**

@@ -13,23 +13,10 @@ import com.github.houbb.hibernate.annotations.Entity;
 
 import java.lang.annotation.Annotation;
 
-/**
- * 列表工具类
- *
- * @author houbinbin
- * @date 16/6/5
- */
 public class TableUtil {
     private TableUtil() {
     }
 
-    /**
-     * 获取表名称
-     *
-     * @param t
-     * @param <T>
-     * @return 表名称
-     */
     public static <T> String getTableName(T t) {
         Annotation annotation = ReflectionUtil.getAnnotation(t, Entity.class);
 
